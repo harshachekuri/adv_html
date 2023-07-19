@@ -1,0 +1,61 @@
+<!--if the position is fixed it will stay in its original position while scrolling the page-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position coordinates display</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        .container{
+            background-color: black;
+            position: relative;
+            height: 300px;
+            width: 300px;
+            /* padding: 50px; */
+        }
+
+        .one {
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+        }
+
+        .two {
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            right: 100px;
+        }
+
+        .three {
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">
+
+        </div>
+        <div class="two">
+
+        </div>
+        <div class="three">
+
+        </div>
+    </div>
+</body>
+
+</html>
